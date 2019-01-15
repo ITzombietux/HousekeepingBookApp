@@ -9,22 +9,17 @@
 import UIKit
 
 class CreateAccountViewController: UIViewController {
+    var stateController: StateController!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet fileprivate weak var nameTextField: UITextField!
+    @IBOutlet fileprivate weak var bankTextField: UITextField!
+    @IBOutlet fileprivate weak var numberTextField: UITextField!
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard segue.identifier == "SaveAccountSegue" else {
+            return
+        }
+        let account = Account(name: nameTextField.text ?? "", bank: bankTextField.text ?? "", number: numberTextField.text ?? "", transactions: [])
+        stateController.add(account)
     }
-    */
-
 }

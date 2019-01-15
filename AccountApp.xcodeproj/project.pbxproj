@@ -18,6 +18,10 @@
 		93B1903821EDAB39006DA8DC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */; };
 		93B1903A21EDAB46006DA8DC /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */; };
 		93B1903C21EDAB57006DA8DC /* CreateTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */; };
+		93B1903E21EDCC84006DA8DC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903D21EDCC84006DA8DC /* UIView.swift */; };
+		93B1904021EDD251006DA8DC /* NewTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903F21EDD251006DA8DC /* NewTransactionView.swift */; };
+		93B1904221EDD5A6006DA8DC /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1904121EDD5A6006DA8DC /* AccountCell.swift */; };
+		93B1904421EDFA2B006DA8DC /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1904321EDFA2B006DA8DC /* TransactionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionViewController.swift; sourceTree = "<group>"; };
+		93B1903D21EDCC84006DA8DC /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		93B1903F21EDD251006DA8DC /* NewTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionView.swift; sourceTree = "<group>"; };
+		93B1904121EDD5A6006DA8DC /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		93B1904321EDFA2B006DA8DC /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 				93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */,
 				93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */,
 				93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */,
+				93B1903D21EDCC84006DA8DC /* UIView.swift */,
+				93B1903F21EDD251006DA8DC /* NewTransactionView.swift */,
+				93B1904121EDD5A6006DA8DC /* AccountCell.swift */,
+				93B1904321EDFA2B006DA8DC /* TransactionCell.swift */,
 			);
 			path = AccountApp;
 			sourceTree = "<group>";
@@ -155,11 +167,15 @@
 			files = (
 				93B1903A21EDAB46006DA8DC /* TransactionsViewController.swift in Sources */,
 				93B1903C21EDAB57006DA8DC /* CreateTransactionViewController.swift in Sources */,
+				93B1904421EDFA2B006DA8DC /* TransactionCell.swift in Sources */,
+				93B1904021EDD251006DA8DC /* NewTransactionView.swift in Sources */,
 				93B1903821EDAB39006DA8DC /* CreateAccountViewController.swift in Sources */,
 				93B1903021ED77C4006DA8DC /* Model.swift in Sources */,
+				93B1903E21EDCC84006DA8DC /* UIView.swift in Sources */,
 				93B1901E21ED77B6006DA8DC /* AppDelegate.swift in Sources */,
 				93B1903621EDAB28006DA8DC /* AccountsViewController.swift in Sources */,
 				93B1903221ED7BED006DA8DC /* StorageController.swift in Sources */,
+				93B1904221EDD5A6006DA8DC /* AccountCell.swift in Sources */,
 				93B1903421ED7E10006DA8DC /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,9 @@ import Foundation
 import UIKit
 
 class StorageController {
+    
+    var stateController: StateController!
+    
     fileprivate let documentsDirectoryURL = FileManager.default
         .urls(for: .documentDirectory, in: .userDomainMask)
         .first!

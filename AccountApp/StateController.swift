@@ -12,6 +12,7 @@ import UIKit
 class StateController {
     fileprivate let storageController: StorageController
     fileprivate(set) var accounts: [Account]
+    var stateController: StateController!
     
     init(storageController: StorageController) {
         self.storageController = storageController
@@ -32,5 +33,14 @@ class StateController {
             storageController.save(accounts)
             break
         }
+    }
+}
+
+struct Appearance {
+    static func setGlobalAppearance() {
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().barTintColor = .skyBlue
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
     }
 }
