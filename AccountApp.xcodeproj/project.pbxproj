@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		93B1901E21ED77B6006DA8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1901D21ED77B6006DA8DC /* AppDelegate.swift */; };
-		93B1902021ED77B6006DA8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1901F21ED77B6006DA8DC /* ViewController.swift */; };
 		93B1902321ED77B6006DA8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1902121ED77B6006DA8DC /* Main.storyboard */; };
 		93B1902521ED77B7006DA8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B1902421ED77B7006DA8DC /* Assets.xcassets */; };
 		93B1902821ED77B7006DA8DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B1902621ED77B7006DA8DC /* LaunchScreen.storyboard */; };
+		93B1903021ED77C4006DA8DC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1902F21ED77C4006DA8DC /* Model.swift */; };
+		93B1903221ED7BED006DA8DC /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903121ED7BED006DA8DC /* StorageController.swift */; };
+		93B1903421ED7E10006DA8DC /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903321ED7E10006DA8DC /* StateController.swift */; };
+		93B1903621EDAB28006DA8DC /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903521EDAB28006DA8DC /* AccountsViewController.swift */; };
+		93B1903821EDAB39006DA8DC /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */; };
+		93B1903A21EDAB46006DA8DC /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */; };
+		93B1903C21EDAB57006DA8DC /* CreateTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		93B1901A21ED77B6006DA8DC /* AccountApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B1901D21ED77B6006DA8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B1901F21ED77B6006DA8DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93B1902221ED77B6006DA8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B1902421ED77B7006DA8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B1902721ED77B7006DA8DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93B1902921ED77B7006DA8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B1902F21ED77C4006DA8DC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		93B1903121ED7BED006DA8DC /* StorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		93B1903321ED7E10006DA8DC /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		93B1903521EDAB28006DA8DC /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransactionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				93B1901D21ED77B6006DA8DC /* AppDelegate.swift */,
-				93B1901F21ED77B6006DA8DC /* ViewController.swift */,
 				93B1902121ED77B6006DA8DC /* Main.storyboard */,
 				93B1902421ED77B7006DA8DC /* Assets.xcassets */,
 				93B1902621ED77B7006DA8DC /* LaunchScreen.storyboard */,
 				93B1902921ED77B7006DA8DC /* Info.plist */,
+				93B1902F21ED77C4006DA8DC /* Model.swift */,
+				93B1903121ED7BED006DA8DC /* StorageController.swift */,
+				93B1903321ED7E10006DA8DC /* StateController.swift */,
+				93B1903521EDAB28006DA8DC /* AccountsViewController.swift */,
+				93B1903721EDAB39006DA8DC /* CreateAccountViewController.swift */,
+				93B1903921EDAB46006DA8DC /* TransactionsViewController.swift */,
+				93B1903B21EDAB57006DA8DC /* CreateTransactionViewController.swift */,
 			);
 			path = AccountApp;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B1902021ED77B6006DA8DC /* ViewController.swift in Sources */,
+				93B1903A21EDAB46006DA8DC /* TransactionsViewController.swift in Sources */,
+				93B1903C21EDAB57006DA8DC /* CreateTransactionViewController.swift in Sources */,
+				93B1903821EDAB39006DA8DC /* CreateAccountViewController.swift in Sources */,
+				93B1903021ED77C4006DA8DC /* Model.swift in Sources */,
 				93B1901E21ED77B6006DA8DC /* AppDelegate.swift in Sources */,
+				93B1903621EDAB28006DA8DC /* AccountsViewController.swift in Sources */,
+				93B1903221ED7BED006DA8DC /* StorageController.swift in Sources */,
+				93B1903421ED7E10006DA8DC /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
